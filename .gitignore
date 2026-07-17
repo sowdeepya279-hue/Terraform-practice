@@ -5,6 +5,10 @@
 *.tfstate
 *.tfstate.*
 
+# Lambda build files
+build/
+*.zip
+
 # Terraform lock file
 .terraform.lock.hcl
 # documents
