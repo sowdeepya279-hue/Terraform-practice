@@ -1,4 +1,4 @@
-aws_region = "ap-southeast-2"
+aws_region = "us-east-1"
 
 identifier = "terraform-module-rds"
 
@@ -11,7 +11,8 @@ max_allocated_storage = 100
 
 db_name  = "applicationdb"
 username = "admin"
-password = "MySecurePassword123!"
+#password = "MySecurePassword123!" #TF_VAR_password="YourStrongPassword in the bash terminal to avoid hardcoding sensitive information in the terraform.tfvars file."
+
 
 publicly_accessible = false
 multi_az            = false

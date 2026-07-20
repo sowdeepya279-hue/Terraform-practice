@@ -34,7 +34,7 @@ variable "username" {
   type = string
 }
 
-variable "password" {
+variable "password" {      
   type      = string
   sensitive = true
 }
