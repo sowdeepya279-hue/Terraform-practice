@@ -6,7 +6,7 @@ module "rds" {
   source = "../day-10-Terraform-module-rds-task"
 
   identifier = var.identifier
-
+#module variables = local variables = var.<variable_name>
   engine         = var.engine
   engine_version = var.engine_version
 
