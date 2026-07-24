@@ -13,7 +13,7 @@
 #   route_table_id = aws_route_table.private.id
 # }
 
-#coount recommanded no consistency at the time of delation use for_each
+#count not recommanded no consistency at the time of deletion so use for_each
 
 
 locals {
